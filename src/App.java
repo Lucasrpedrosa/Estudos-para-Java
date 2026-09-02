@@ -5,7 +5,7 @@ public class App { // Estrutura padrão em Java, criando uma classe pública (qu
     }
 }
 
-/**
+/*
  * 
  * Maneira chamada doc para adicionar comentários mais longos e informativos
  * 
