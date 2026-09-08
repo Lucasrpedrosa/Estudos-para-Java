@@ -1,11 +1,22 @@
 package jv10_estruturas_repeticao;
 
+import java.text.NumberFormat;
+import java.text.ParseException;
 import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
 public class EstruturaExcecoes {
     public static void main(String[] args) {
+
+        // Utilizando exceptions do tipo Exception. Que devem ser tratadas antes da execução do programa
+        try {
+            Number valor = NumberFormat.getInstance().parse("1.75");
+        } catch (ParseException e) {
+            throw new RuntimeException(e);
+        }
+
+        // Utilizando exceptions do tipo Runtime. Que são exceções que so podem ser identificadas durante ou após a execução do programa
             try {
                 Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
                 System.out.println("Digite seu nome: ");
