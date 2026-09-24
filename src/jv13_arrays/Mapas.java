@@ -25,6 +25,7 @@ public class Mapas {
 
             String chave = keys.next();
             String valor = estados.get(chave);
+            System.out.printf("\nA sigla %s \nNome: %s",chave, valor );
         }
     }
 }
