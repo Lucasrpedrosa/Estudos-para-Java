@@ -17,7 +17,6 @@ public class ContaCorrente {
     void consultarExtrato(LocalDate datainicial, LocalDate dataFinal){  // Metodo que retorna as todas as transações realizadas e suas seguintes datas.
 
 
-         ;
     }
 
     void cancelar(String jsutificativa){    // Cancela a conta do cliente adicionando uma justificativa.
